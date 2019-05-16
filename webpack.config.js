@@ -2,7 +2,7 @@ const HTMLPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: [
-    '@babel/polyfill',
+     '@babel/polyfill',
     './src/index.js'
   ],
   output: {
@@ -19,7 +19,7 @@ module.exports = {
     })
   ],
   resolve: {
-    extensions: ['.js']
+    extensions: ['*', '.js', '.jsx','.css']
   },
   module: {
     rules: [

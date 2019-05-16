@@ -1,7 +1,9 @@
 .hide {
   display: none !important;
 }
-
+.header{
+    display: none;
+}
 .w-container {
   margin: 0 auto;
   width: 600px;
